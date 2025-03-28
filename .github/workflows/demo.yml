@@ -35,5 +35,5 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
 
-          -name: test run
-          run echo test
+      - name: test run
+        run: echo test
